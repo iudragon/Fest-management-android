@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CoordinatorActivity"
+    android:background="@drawable/img1"
+  >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Co-Ordinator"
+        android:layout_marginTop="20dp"
+        android:id="@+id/wco"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wco"
+        android:inputType="textMultiLine|textCapSentences"
+        android:maxLines="5"
+        android:minLines="5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="left"
+        android:textColor="#85ff8b"
+        android:textColorHint="#ffff"
+        android:background="@drawable/input_outline"
+        android:hint="Updates"
+        android:id="@+id/updates"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/btn_updates"
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Submit"
+        android:layout_below="@id/updates"
+        android:background="@color/greenyellow"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/add_winners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/btn_updates"
+        android:text="ADD WINNERS"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add It Quiz Test"
+        android:textColor="#e12a2a"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#fff"
+        android:id="@+id/txt"
+        android:textSize="20sp"
+        android:layout_below="@+id/add_winners"/>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt"
+            android:inputType="textMultiLine|textCapSentences"
+            android:maxLines="2"
+            android:minLines="2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="left"
+            android:textColor="#85ff8b"
+            android:textColorHint="#ffff"
+            android:background="@drawable/input_outline"
+            android:hint="Question"
+            android:id="@+id/itqus"
+            android:padding="15dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itqus"
+            android:inputType="textMultiLine|textCapSentences"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="left"
+            android:textColor="#85ff8b"
+            android:textColorHint="#ffff"
+            android:background="@drawable/input_outline"
+            android:hint="Option 1"
+            android:id="@+id/itop1"
+            android:padding="15dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itop1"
+            android:inputType="textMultiLine|textCapSentences"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="left"
+            android:textColor="#85ff8b"
+            android:textColorHint="#ffff"
+            android:background="@drawable/input_outline"
+            android:hint="Option 2"
+            android:id="@+id/itop2"
+            android:padding="15dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itop2"
+            android:inputType="textMultiLine|textCapSentences"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="left"
+            android:textColor="#85ff8b"
+            android:textColorHint="#ffff"
+            android:background="@drawable/input_outline"
+            android:hint="Option 3"
+            android:id="@+id/itop3"
+            android:padding="15dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itop3"
+            android:inputType="textMultiLine|textCapSentences"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="left"
+            android:textColor="#85ff8b"
+            android:textColorHint="#ffff"
+            android:background="@drawable/input_outline"
+            android:hint="Option 4"
+            android:id="@+id/itop4"
+            android:padding="15dp" />
+        <Button
+            android:id="@+id/btn_it"
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Submit"
+            android:layout_below="@id/itop4"
+            android:background="@color/greenyellow"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/white"
+            />
+
+
+    </RelativeLayout>
+
+</ScrollView>

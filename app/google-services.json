@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "763101250837",
+    "firebase_url": "https://itfest2-1de5b.firebaseio.com",
+    "project_id": "itfest2-1de5b",
+    "storage_bucket": "itfest2-1de5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763101250837:android:1c3d14d23b1e6b30",
+        "android_client_info": {
+          "package_name": "com.naveen.itfest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763101250837-bt136n2jr1ir7o3fmrmqsono8pc0nlm0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.naveen.itfest",
+            "certificate_hash": "1066751684a54f6189e5eb7d926c3df2bb0a585a"
+          }
+        },
+        {
+          "client_id": "763101250837-s58eig70r2iajkv20inmi7p3u2uvtcja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbKUb7fn5J3ZqSICHRYb2JoZT3HVAIjA4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763101250837-s58eig70r2iajkv20inmi7p3u2uvtcja.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

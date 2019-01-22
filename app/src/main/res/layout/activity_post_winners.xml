@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img4"
+    tools:context=".PostWinnersActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Winner details"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/input_outline"
+        android:inputType="textCapWords"
+        android:hint="Event Name"
+        android:textColor="#85ff8b"
+        android:textColorHint="#ffff"
+        android:id="@+id/eventname"
+        android:padding="15dp" />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_outline"
+        android:inputType="textCapCharacters"
+        android:layout_below="@+id/eventname"
+        android:hint="Winner name"
+        android:id="@+id/wname"
+        android:textColor="#85ff8b"
+        android:textColorHint="#ffff"
+        android:padding="15dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_outline"
+        android:inputType="textCapWords"
+        android:hint="Email"
+        android:id="@+id/wemail"
+        android:textColor="#85ff8b"
+        android:textColorHint="#ffff"
+        android:padding="15dp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wemail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_outline"
+        android:inputType="textCapWords"
+        android:hint="Event date"
+        android:textColor="#85ff8b"
+        android:textColorHint="#ffff"
+        android:id="@+id/eventdate"
+        android:padding="15dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eventdate"
+        android:inputType="textMultiLine|textCapSentences"
+        android:maxLines="20"
+        android:minLines="20"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="left"
+        android:background="@drawable/input_outline"
+        android:hint="Event Description"
+        android:textColor="#85ff8b"
+        android:textColorHint="#ffff"
+        android:id="@+id/eventdesc"
+        android:padding="15dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/submitbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:text="Submit post"
+        android:textColor="#fff" />
+
+</RelativeLayout>

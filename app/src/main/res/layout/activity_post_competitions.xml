@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img1"
+    tools:context=".PostCompetitionsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input_outline"
+                android:inputType="textCapWords"
+                android:hint="Event Name"
+                android:textColor="#85ff8b"
+                android:textColorHint="#ffff"
+                android:id="@+id/event"
+                android:padding="15dp" />
+
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input_outline"
+                android:layout_below="@id/event"
+                android:inputType="textCapWords"
+                android:hint="Venue"
+                android:textColor="#85ff8b"
+                android:textColorHint="#ffff"
+                android:id="@+id/venue"
+                android:padding="15dp" />
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input_outline"
+                android:layout_below="@id/venue"
+                android:inputType="textCapWords"
+                android:textColor="#85ff8b"
+                android:textColorHint="#ffff"
+                android:hint="Date"
+                android:id="@+id/date"
+                android:padding="15dp" />
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input_outline"
+                android:layout_below="@id/date"
+                android:inputType="textCapWords"
+                android:textColor="#85ff8b"
+                android:textColorHint="#ffff"
+                android:hint="Co ordinator name"
+                android:id="@+id/cname"
+                android:padding="15dp" />
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input_outline"
+                android:layout_below="@id/cname"
+                android:inputType="textCapWords"
+                android:textColor="#85ff8b"
+                android:textColorHint="#ffff"
+                android:hint="Password"
+                android:id="@+id/cpass"
+                android:padding="15dp" />
+
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cpass"
+                android:id="@+id/pr">
+
+            </Spinner>
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pr"
+                android:inputType="textMultiLine|textCapSentences"
+                android:maxLines="50"
+                android:minLines="50"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:textColor="#85ff8b"
+                android:textColorHint="#ffff"
+                android:background="@drawable/input_outline"
+                android:hint="Event Description"
+                android:id="@+id/event_desc"
+                android:padding="15dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/submitbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:text="Add"
+        android:textColor="#fff" />
+
+</RelativeLayout>

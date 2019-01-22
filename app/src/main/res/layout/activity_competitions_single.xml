@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CompetitionsSingleActivity"
+    android:background="@drawable/img6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:id="@+id/regcard">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:text="Register Now"
+                        android:layout_gravity="center"/>
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/input_outline"
+                        android:inputType="textCapWords"
+                        android:hint="Name"
+                        android:id="@+id/name"
+                        android:padding="15dp" />
+
+
+                    <EditText
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/input_outline"
+                        android:layout_below="@id/name"
+                        android:inputType="textCapWords"
+                        android:hint="Birth Date"
+                        android:id="@+id/bdate"
+                        android:padding="15dp" />
+
+                    <EditText
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/input_outline"
+                        android:layout_below="@id/bdate"
+                        android:inputType="textCapWords"
+                        android:hint="Phone"
+                        android:id="@+id/phno"
+                        android:padding="15dp"
+                        />
+
+                    <Button
+                        android:id="@+id/event_reg"
+                        android:layout_width="150dp"
+                        android:layout_height="30dp"
+                        android:text="REGISTER"
+                        android:background="@color/greenyellow"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@android:color/white"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="20dp"
+                        />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <Button
+                android:id="@+id/testbtn"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/regcard"
+                android:layout_marginBottom="10dp"
+                android:background="#4c62f2"
+                android:text="Take Test"
+                android:textColor="@android:color/white"
+                android:visibility="invisible" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/details_card"
+        android:layout_below="@+id/testbtn"
+        >
+
+       <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bck"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Evenet name goes here"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#ff4912"
+                android:id="@+id/single_event"
+                />
+
+            <TextView
+                android:id="@+id/single_venue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="venue goes here"
+                android:layout_marginLeft="8dp"
+                android:textSize="15sp"
+                android:textColor="#ff49"
+                android:drawablePadding="8dp"
+                android:drawableLeft="@drawable/ic_location_on_black_24dp"/>
+
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grey"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:text="Event Date"
+                android:textColor="@color/violet"/>
+
+            <TextView
+                android:id="@+id/single_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="8dp"
+                android:layout_marginTop="5dp"
+                android:maxLines="1"
+                android:text="date here"
+                android:textColor="#ff49"
+                android:drawableLeft="@drawable/ic_date_range_black_24dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15sp" />
+
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:text="About competition"
+    android:id="@+id/about"
+    android:layout_below="@id/details_card"
+    android:textColor="#fff"
+    android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="15"
+            android:minLines="15"
+            android:layout_below="@id/about"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/input_outline"
+            android:hint="Event description"
+            android:id="@+id/single_event_desc"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textColorHint="#ffff"
+            android:padding="15dp" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/removebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:text="Remove post"
+        android:visibility="invisible"
+        android:textColor="#fff" />
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/img6">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Eventt"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/post_eventname"
+            android:textColor="@color/colorAccent"
+            />
+
+        <TextView
+            android:id="@+id/post_eventdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="eventdate goes here"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:textColor="#ff49"
+            android:drawableLeft="@drawable/ic_date_range_black_24dp"
+            android:drawablePadding="8dp"
+            />
+
+        <TextView
+            android:id="@+id/post_wname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:text="email here"
+            android:textColor="#ff49"
+            android:drawablePadding="8dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/post_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:text="email here"
+            android:drawablePadding="8dp"
+            android:textColor="#ff49"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:textSize="15sp" />
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/post_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="8dp"
+            android:maxLines="1"
+            android:text="Event desc here"
+            android:textColor="#ff49"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Read more"
+            android:textColor="@color/violet"/>
+
+  </LinearLayout>
+
+</android.support.v7.widget.CardView>

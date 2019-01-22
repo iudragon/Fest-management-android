@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_star_border_black_24dp"
+                android:title="Rate the App" />
+            <item
+                android:id="@+id/nav_developer"
+                android:icon="@drawable/ic_perm_identity_black_24dp"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

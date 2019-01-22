@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">ITFest</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="depts">
+
+        <item>TRUE</item>
+        <item>FALSE</item>
+    </string-array>
+
+    <string name="once_you_submit_answers_you_cannot_make_changes_read_instructions_for_more_information">Once you submit answers you cannot make changes. Read instructions for more information</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Welcome</string>
+    <string name="slide_1_desc">Lets Get Started</string>
+
+    <string name="slide_2_title">IT Fest</string>
+    <string name="slide_2_desc">It is a platform to Showcase your talent!</string>
+
+    <string name="slide_3_title">IT competitions</string>
+    <string name="slide_3_desc">Participate in different IT competitions like IT quiz,coading,project expo etc!</string>
+
+    <string name="slide_4_title">Prize</string>
+    <string name="slide_4_desc">Win prizes by excelling in the IT competitions!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
+
+
